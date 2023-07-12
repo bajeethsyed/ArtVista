@@ -1,0 +1,101 @@
+*{
+  color: white;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+#page1{
+  background-color: #272727;
+  /* background-image: url(images/back1.jpg'); */
+}
+
+#art{
+  font-size: 5rem;
+  color: orange;
+}
+
+.nav-item{
+  padding: 1.9rem 1.5rem;
+}
+
+#se {
+    padding-right: 5rem;
+}
+
+.ta{
+  background: rgba(0,0,0,0.852);
+}
+
+.sif{
+  font-size: 1.2rem;
+}
+
+.slide {
+  opacity: 0;
+  background-size: cover;
+  background-position: center;
+  animation: slide 25s infinite;
+}
+
+@keyframes slide {
+  0% {
+    background-image: url('../images/image1.jpeg');
+    opacity: 1;
+  }
+  25% {
+    background-image: url('../images/image5.jpeg');
+    opacity: 1;
+  }
+  50% {
+    background-image: url('../images/image2.jpeg');
+    opacity: 1;
+  }
+  75% {
+    background-image: url('../images/t3.jpg');
+    opacity: 1;
+  }
+  100% {
+    background-image: url('../images/image1.jpeg');
+    opacity: 1;
+  }
+}
+
+.nav-link{
+  color:white;
+}
+
+.nav-link.active {
+  color: #ff0000 !important;
+}
+
+
+.nav-item a:hover
+{
+    color: #EAB126;
+}
+
+#cards{
+  color: #232323;
+  padding: 100px;
+  text-align: center;
+}
+
+#btn{
+  position: relative;
+    left: 6rem;
+    top: -15rem;
+    height: 2.9rem;
+    width: 9rem;
+    background-color: rgb(50, 50, 50);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 2.2);
+    border-radius: 0.9rem;
+    color: orange;
+}
+
+#back{
+  background-image: url(images/back1.jpg);
+}
+
+.b{
+  background-color: orange;
+    color: black;
+}

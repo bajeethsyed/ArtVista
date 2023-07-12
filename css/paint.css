@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+  margin: 0%;
+}
+
+body{
+  margin: 0%;
+  font-size: 17px;
+  padding: 0%;
+  
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#040404;
+  position:sticky;   
+  padding: 0.5rem 2rem;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  
+}
+
+.logo{
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 2.25rem;
+  
+}
+
+nav .link a{
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: none;
+  color: white;
+  margin: 1rem;
+  cursor: pointer;
+}
+nav .link a:hover{
+  color: #fcba03;
+}
+
+/* *******************PAGE-2********************** */
+.page2{
+  margin-top: 0%;
+  
+}
+
+.cards{
+  padding: 100px;
+  text-align: center;
+}
